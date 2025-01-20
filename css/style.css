@@ -1,7 +1,11 @@
-
+body{
+	font-family: "Onest", serif;
+}
 h1{
   color: white;
 }
+
+/* animated border start */
 .animated-border{
   margin: 0 auto;
   padding: 2em;
@@ -44,3 +48,4 @@ h1{
     --angle: 360deg;
   }
 }
+/* animated border end */
