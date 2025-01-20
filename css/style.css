@@ -4,7 +4,9 @@
 	--dark-clr: #000000;
 	--alert-clr: #e74c3c;
 }
-
+html {
+	scroll-behavior: smooth;
+}
 body {
 	font-family: 'Roboto', sans-serif;
 }
