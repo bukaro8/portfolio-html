@@ -100,3 +100,20 @@ p {
 	background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
 	overflow: auto;
 }
+.menu-item-custom {
+	display: block;
+	color: #ffffffcc;
+	border-color: #374151;
+}
+.menu-item-custom:active {
+	color: blue;
+}
+.menu-item-custom:hover {
+	color: #3b82f6;
+}
+
+@media (min-width: 768px) {
+	.menu-item-custom:hover {
+		color: #2563eb;
+	}
+}
