@@ -691,6 +691,14 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
 .gap-5 {
   gap: 1.25rem;
 }
@@ -905,6 +913,10 @@ video {
 
   .md\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .md\:w-\[90\%\] {
+    width: 90%;
   }
 
   .md\:flex-row {
