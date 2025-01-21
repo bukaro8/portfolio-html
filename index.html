@@ -12,15 +12,13 @@
 			href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="stylesheet" href="./css/buttons.css">
 		<link rel="stylesheet" href="./css/style.css" />
 		<title>Portfolio</title>
 	</head>
 	<body>
 		<header>
-			<nav
-				id="navbar"
-				class="bg-white border-gray-200 dark:bg-gray-900 w-screen"
-			>
+			<nav id="navbar" class="bg-white border-gray-200 w-screen">
 				<div
 					class="flex flex-wrap items-center justify-center max-w-screen-xl mx-auto p-4"
 				>
@@ -77,20 +75,20 @@
 		</header>
 		<main id="background" class="overflow-auto">
 			<section id="hero">
-				<video
+				<!-- <video
 					class="absolute inset-0 w-full h-full object-cover -z-10"
 					src="./assets/video/hero.mp4"
 					autoplay
 					loop
 					muted
 					playsinline
-				></video>
+				></video> -->
 				<article
 					id="hero-content"
 					class="flex flex-col items-center justify-center m-[-3rem] h-screen"
 				>
 					<div
-						class="bg-gray-700/50 rounded-lg flex md:flex-row flex-col p-3 justify-center items-center"
+						class="bg-gray-700/50 rounded-t flex md:flex-row flex-col-reverse  p-3 justify-center items-center md:w-[80%]"
 					>
 						<img
 							src="./assets/pictures/header.jpeg"
@@ -99,20 +97,24 @@
 						/>
 
 						<p
-							class="text-white text-lg md:text-2xl font-bold w-[80%] text-center"
+							class="text-white text-lg md:text-2xl font-bold text-center p-10 w-[70%]"
 						>
 							Hi, <strong class="strong"> <i>I'mVictor</i></strong
 							>! With a strong background in <i>web development</i> and a
 							passion for helping others, I create beautiful and functional
-							websites using modern technologies like Next.js, Astro, and
-							Tailwind CSS. Let's bring your ideas to life!
+							websites using modern technologies like
+							<strong class="strong"><i>Next.js, Astro,</strong> and <strong class="strong"> CSS</strong>. Let's bring your ideas to life!</i>
 						</p>
-						<div class="animated-border">Let's work together!</div>
+						<a class="btn animated-border ">Contact Me</a>
+						
 					</div>
-					<button type="button"></button>
+					<div id="buttons-container" class="bg-gray-700/50  p-4 md:w-[80%] text-center rounded-b w-full">
+						<a class="btn btn-light">Download CV</a>
+						<a class="btn  btn-info ">Projects</a>
+					</div>
 				</article>
 			</section>
-			<section class="mt-[100vh]">
+			<section class="mt-8">
 				<p id="about">
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
 					ea illo dolor voluptas, reprehenderit temporibus cumque obcaecati,
