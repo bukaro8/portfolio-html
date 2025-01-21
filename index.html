@@ -87,9 +87,18 @@
 					id="hero-content"
 					class="flex flex-col items-center justify-center m-[-3rem] h-screen"
 				>
+				
 					<div
-						class="bg-gray-700/50 rounded-t flex md:flex-row flex-col-reverse  p-3 justify-center items-center md:w-[80%]"
+						class="bg-gray-700/50 rounded-md flex md:flex-row flex-col-reverse  p-3 justify-center items-center md:w-[80%] relative"
 					>
+					<video
+					class="absolute  w-full text-center h-full object-cover -z-10"
+					src="./assets/video/hero.mp4"
+					autoplay
+					loop
+					muted
+					playsinline
+				></video>
 						<img
 							src="./assets/pictures/header.jpeg"
 							alt="cartoon of Victor"
@@ -108,7 +117,7 @@
 						<a class="btn animated-border ">Contact Me</a>
 						
 					</div>
-					<div id="buttons-container" class="bg-gray-700/50  p-4 md:w-[80%] text-center rounded-b w-full">
+					<div id="buttons-container" class=" p-4 md:w-[80%] text-center rounded-b w-full">
 						<a class="btn btn-light">Download CV</a>
 						<a class="btn  btn-info ">Projects</a>
 					</div>
