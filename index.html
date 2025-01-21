@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="stylesheet" href="./css/output.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -58,16 +58,16 @@
 						<ul
 							class="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse text-center gap-5 h-screen md:h-8"
 						>
-							<li>
-								<a href="#" class="menu-item-custom">Home</a>
+							<li class="menu-link">
+								<a href="/#hero" class="menu-item-custom">Home</a>
 							</li>
-							<li>
-								<a href="#about" class="menu-item-custom">About</a>
+							<li class="menu-link">
+								<a href="/#about" class="menu-item-custom">About</a>
 							</li>
-							<li>
+							<li class="menu-link">
 								<a href="#projects" class="menu-item-custom">Projects</a>
 							</li>
-							<li>
+							<li class="menu-link">
 								<a href="/contact" class="menu-item-custom">Contact</a>
 							</li>
 						</ul>
@@ -76,13 +76,57 @@
 			</nav>
 		</header>
 		<main id="background" class="overflow-auto">
-			<section>
-				<div id="video-container" class="absolute inset-0 -z-10"></div>
-				<div class="absolute inset-0 flex items-center justify-center">
-					<h1 class="text-white text-4xl md:text-6xl font-bold">
-						Welcome to My Portfolio
-					</h1>
-				</div>
+			<section id="hero">
+				<video
+					class="absolute inset-0 w-full h-full object-cover -z-10"
+					src="./assets/video/hero.mp4"
+					autoplay
+					loop
+					muted
+					playsinline
+				></video>
+				<article
+					id="hero-content"
+					class="flex flex-col items-center justify-center m-[-3rem] h-screen"
+				>
+					<div
+						class="bg-gray-700/50 rounded-lg flex md:flex-row flex-col p-3 justify-center items-center"
+					>
+						<img
+							src="./assets/pictures/header.jpeg"
+							alt="cartoon of Victor"
+							class="rounded-full w-20"
+						/>
+
+						<p
+							class="text-white text-lg md:text-2xl font-bold w-[80%] text-center"
+						>
+							Hi, <strong class="strong"> <i>I'mVictor</i></strong
+							>! With a strong background in <i>web development</i> and a
+							passion for helping others, I create beautiful and functional
+							websites using modern technologies like Next.js, Astro, and
+							Tailwind CSS. Let's bring your ideas to life!
+						</p>
+						<div class="animated-border">Let's work together!</div>
+					</div>
+					<button type="button"></button>
+				</article>
+			</section>
+			<section class="mt-[100vh]">
+				<p id="about">
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+					ea illo dolor voluptas, reprehenderit temporibus cumque obcaecati,
+					molestias repudiandae nostrum nisi consequatur ipsam minus asperiores
+					veniam ducimus ab autem commodi nihil quis sunt deleniti assumenda
+					delectus odio? Illo cupiditate, veniam facilis laudantium saepe
+					distinctio nostrum? Officia nulla voluptatibus delectus numquam iure
+					quod unde natus nisi ratione officiis voluptates qui neque fugit eius
+					illum consequatur nobis odit, repudiandae corporis enim autem? Dolorum
+					mollitia nemo iusto repellat, suscipit excepturi ad similique
+					laudantium quae, placeat autem architecto corrupti quia veritatis
+					veniam ipsum iure pariatur, odit itaque optio. Dolorum saepe cumque
+					iure rerum quaerat.
+				</p>
 			</section>
 		</main>
 	</body>
@@ -90,8 +134,7 @@
 <script>
 	const menuToggle = document.getElementById('menu-toggle');
 	const menu = document.getElementById('mega-menu');
-	const videoContainer = document.getElementById('video-container');
-	const videoElement = document.createElement('video');
+	const menuLinks = document.querySelectorAll('.menu-link');
 
 	menuToggle.addEventListener('click', () => {
 		menu.classList.toggle('hidden');
@@ -100,11 +143,10 @@
 			menu.classList.contains('hidden') ? 'false' : 'true'
 		);
 	});
-
-	videoElement.src = './assets/video/hero.mp4';
-	videoElement.autoplay = true;
-	videoElement.loop = true;
-	videoElement.muted = true;
-	videoElement.className = 'w-full h-full object-cover';
-	videoContainer.appendChild(videoElement);
+	menuLinks.forEach((link) => {
+		link.addEventListener('click', () => {
+			menu.classList.add('hidden'); // Hide the menu
+			menuToggle.setAttribute('aria-expanded', 'false');
+		});
+	});
 </script>

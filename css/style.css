@@ -17,7 +17,9 @@ h3,
 h4 {
 	font-family: 'Onest', serif;
 }
-
+.strong {
+	color: var(--alert-clr);
+}
 .title {
 	font-size: 3rem; /* 48px */
 	line-height: 1;
