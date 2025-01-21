@@ -1,3 +1,5 @@
 .DS_Store
 .vscode/
+.tailwindcss
+tailwindcss-macos-arm64
 tailwindcss
