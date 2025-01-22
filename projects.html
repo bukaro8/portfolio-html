@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="!scroll-smooth">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,9 +12,11 @@
 			href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="./css/buttons.css">
+		<link rel="stylesheet" href="./css/buttons.css" />
 		<link rel="stylesheet" href="./css/style.css" />
-		<title>Portfolio</title>
+		<link rel="stylesheet" href="./css/projects.css" />
+
+		<title>My Work</title>
 	</head>
 	<body>
 		<header>
@@ -73,53 +75,9 @@
 				</div>
 			</nav>
 		</header>
-		<main id="background" class="overflow-auto">
-			<video
-					class="absolute  w-full text-center h-full object-cover -z-10"
-					src="./assets/video/hero.mp4"
-					autoplay
-					loop
-					muted
-					playsinline
-				></video>
-			<section id="hero">
-
-				<article
-					id="hero-content"
-					class="flex flex-col items-center justify-center m-[-3rem] h-screen"
-				>
-				<h1 class="text-white text-center text-4xl">Welcome to my Portfolio</h1>
-					<div
-						class="bg-gray-700/80 rounded-t-md flex md:flex-row flex-col  p-3 justify-center items-center md:w-[90%] relative"
-					>
-					
-						<img
-							src="./assets/pictures/header.jpeg"
-							alt="cartoon of Victor"
-							class="rounded-full w-20"
-						/>
-
-						<p
-							class="text-white text-lg md:text-2xl font-bold text-center p-10 w-[70%]"
-						>
-							Hi, <strong class="strong"> <i>I'mVictor</i></strong
-							>! With a strong background in <i>web development</i> and a
-							passion for helping others, I create beautiful and functional
-							websites using modern technologies like
-							<strong class="text-purple-500"><i>NextJs</strong>, <strong class="text-blue-700">Astro</strong>, and <strong class="strong"> CSS</strong>. Let's bring your ideas to life!</i>
-						</p>
-						<a class="btn animated-border " href="/contact.html">Contact Me</a>
-						
-					</div>
-					<div id="buttons-container" class=" p-4   w-full flex justify-center gap-5 bg-gray-700/80 rounded-b-md   items-center md:w-[90%]">
-						<a class="btn btn-light" href="./assets/files/mockcv.txt" download="mockFile.txt">Download CV</a>
-						<a class="btn  btn-success " href="/projects.html">Projects</a>
-					</div>
-				</article>
-			</section>
-		
+		<main id="background">
+			<h1>my work</h1>
 		</main>
 	</body>
 </html>
 <script src="./js/burgerMenu.js" async></script>
-
