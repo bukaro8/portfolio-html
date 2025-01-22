@@ -35,7 +35,24 @@
 	border-color: #0044cc;
 }
 .article-message {
-	max-width:50vw
+	max-width:88%;
+	text-align:center
+}
+
+.about_image-container{
+	max-width:88%;
+	padding-block-end:2rem
+	
+	/* width:33vw; */
+}
+.logos-container{
+	display:flex;
+	justify-content:center;
+	gap: 2rem;
+	flex-wrap: wrap;
+	width:100vw;
+	padding-block-end:2rem
+
 }
 @media screen and (max-width: 768px) {
 	.article-message {
