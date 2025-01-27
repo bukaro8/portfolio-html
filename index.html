@@ -83,11 +83,12 @@
 		</header>
 		<main id="background" class="overflow-auto">
 			<video
-				class="absolute w-full text-center h-full object-cover -z-10"
+				class="video-element absolute w-full text-center h-full object-cover -z-10"
 				src="./assets/video/hero.mp4"
 				autoplay
 				loop
 				muted
+				controls
 				playsinline
 				aria-label="Background video"
 			></video>
@@ -97,7 +98,7 @@
 					class="flex flex-col items-center justify-center m-[-3rem] h-screen flex-wrap"
 				>
 					<h1
-						class="text-white text-center text-4xl pt-10 md:pt-0 w-screen bg-gray-700/80 md:w-[90%] md:border"
+						class="text-white text-center text-4xl pt-12 md:pt-0 w-screen bg-gray-700/80 md:w-[90%] md:border"
 					>
 						Welcome to my Portfolio
 					</h1>
@@ -137,6 +138,31 @@
 				</article>
 			</section>
 		</main>
+		<footer class="text-white pt-12">
+			<h3 class="">&copy; 2025 Victor Ramirez. All Rights Reserved.</h3>
+			<div class="social-links">
+				<a
+					href="https://github.com/yourgithub"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img src="./assets/icons/github.svg" alt="GitHub" class="w-12" />
+				</a>
+
+				<a
+					href="https://linkedin.com/in/yourlinkedin"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img src="./assets/icons/linkedin.svg" alt="LinkedIn" class="w-12" />
+				</a>
+
+				<a href="mailto:youremail@example.com">
+					<img src="./assets/icons/gmail.svg" alt="Email" class="w-12" />
+				</a>
+			</div>
+		</footer>
+
 		<script src="./js/burgerMenu.js"></script>
 	</body>
 </html>

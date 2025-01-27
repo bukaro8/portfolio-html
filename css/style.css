@@ -4,6 +4,7 @@
 	--dark-clr: #000000;
 	--alert-clr: #e74c3c;
 }
+
 html {
 	scroll-behavior: smooth;
 	scroll-padding: 10rem;
@@ -22,7 +23,7 @@ h4 {
 	color: var(--alert-clr);
 }
 .title {
-	font-size: 3rem; /* 48px */
+	font-size: 3rem; 
 	line-height: 1;
 	color: var(--primary-clr);
 }
@@ -30,6 +31,9 @@ p {
 	color: var(--clear-clr);
 }
 
+.video-element {
+  z-index: 0; 
+}
 /* animated border start */
 .animated-border {
 	color: var(--clear-clr);
@@ -158,5 +162,9 @@ text-align:center;
 @media screen and (max-width: 768px) {
 	#navbar {
 		background-image: none;
+		
+	}
+	footer{
+		display:none
 	}
 }
