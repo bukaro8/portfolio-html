@@ -133,6 +133,35 @@ Below are the wireframes for the different pages of the project, showcasing the 
 [Mobile](documentation/tests/lighthouse-contact-mobile.png)
 
 
+
+### Manual Testing
+
+Below is the manual testing performed for the project to ensure all features work as expected.
+
+| Feature               | Action                                                                 | Expected Result                                                          | Tested | Passed | Comments                                                                                 |
+| --------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------ | ------ | ---------------------------------------------------------------------------------------- |
+| **Navbar**            |                                                                        |                                                                          |        |        |                                                                                          |
+| Home Link             | Click on the "Home" link                                               | The user is redirected to the main page                                  | Yes    | Yes    | -                                                                                        |
+| About Link            | Click on the "About" link                                              | The user is redirected to the about page                                 | Yes    | Yes    | -                                                                                        |
+| Projects Link         | Click on the "Projects" link                                           | The user is redirected to the projects page                              | Yes    | Yes    | -                                                                                        |
+| Contact Link          | Click on the "Contact" link                                            | The user is redirected to the contact page                               | Yes    | Yes    | -                                                                                        |
+| **Footer**            |                                                                        |                                                                          |        |        |                                                                                          |
+| LinkedIn Icon         | Click on the LinkedIn icon                                             | The user is redirected to the LinkedIn profile                           | Yes    | Yes    | -                                                                                        |
+| GitHub Icon           | Click on the GitHub icon                                               | The user is redirected to the GitHub profile                             | Yes    | Yes    | -                                                                                        |
+| Email Icon            | Click on the Email icon                                                | The default email client opens with a pre-filled recipient address       | Yes    | Yes    | -                                                                                        |
+| **Home Page**         |                                                                        |                                                                          |        |        |                                                                                          |
+| "Contact Me" Button   | Click on the "Contact Me" button                                       | The user is redirected to the contact page                               | Yes    | Yes    | -                                                                                        |
+| Download CV Button    | Click on the "Download CV" button                                      | The CV file is downloaded                                                | Yes    | Yes    | -                                                                                        |
+| Projects Button       | Click on the "Projects" button                                         | The user is redirected to the projects page                              | Yes    | Yes    | -                                                                                        |
+| **Contact Page**      |                                                                        |                                                                          |        |        |                                                                                          |
+| Name Input            | Enter Name                                                             | Name is entered                                                          | Yes    | Yes    | If the user doesn't enter a name, an error message appears.                              |
+| Email Input           | Enter Email                                                            | Email is entered                                                         | Yes    | Yes    | If the user doesn't enter an email or enters an invalid email, an error message appears. |
+| Message Input         | Enter Message                                                          | Message is entered                                                       | Yes    | Yes    | If the user doesn't enter a message, an error message appears.                           |
+| Submit Button         | Click on the "Submit" button                                           | The form is submitted, and the user is redirected to a confirmation page | Yes    | Yes    | -                                                                                        |
+| **Confirmation Page** |                                                                        |                                                                          |        |        |                                                                                          |
+| Redirect to Home Page | The user is automatically redirected to the home page after 10 seconds | The user is redirected to the home page                                  | Yes    | Yes    | -                                                                                        |
+
+
 note:
 1. Run ./tailwindcss-macos-arm64 -i styles.css -o dist/output.css --minify
 2. delete tailwindcss file 
