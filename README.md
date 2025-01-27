@@ -1,4 +1,4 @@
-# portfolio-html
+# Personal Portfolio HTML-CSS-JS
 ## Deployment
  Deployed Website: https://bukaro8.github.io/portfolio-html/
 
@@ -66,21 +66,29 @@
 
 ## Design
 
+### Colour Scheme
+
+The colour scheme for this project is designed to create a visually appealing and consistent user experience. Below are the primary colours used, along with their corresponding CSS variables, visual representations, and URLs.
+
 #### Primary Colours
 - **Primary Colour (`--primary-clr`)**: `#4a90e2`  
   ![Primary Colour](documentation/4a90e2.png)  
+  [View Image](documentation/4a90e2.png)  
   Used for key interactive elements and highlights.
 
 - **Clear Colour (`--clear-clr`)**: `#cecbcb`  
   ![Clear Colour](documentation/cecbcb.png)  
+  [View Image](documentation/cecbcb.png)  
   Used for backgrounds and subtle text.
 
 - **Dark Colour (`--dark-clr`)**: `#000000`  
   ![Dark Colour](documentation/000000.png)  
+  [View Image](documentation/000000.png)  
   Used for text and high-contrast elements.
 
 - **Alert Colour (`--alert-clr`)**: `#e74c3c`  
   ![Alert Colour](documentation/e74c3c.png)  
+  [View Image](documentation/e74c3c.png)  
   Used for error messages and warnings.
 
 #### CSS Variables
