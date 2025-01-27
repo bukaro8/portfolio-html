@@ -137,9 +137,9 @@ Below are the wireframes for the different pages of the project, showcasing the 
 
 
 ### Colours  Contrast Checker
-*  [Desktop](documentation/tests/colour-contrast1.png)
-*  [Desktop](documentation/tests/colour-contrast2.png)
-*  [Desktop](documentation/tests/colour-contrast3.png)
+*  [Color 1](documentation/tests/colour-contrast1.png)
+*  [Color 2](documentation/tests/colour-contrast2.png)
+*  [Color 3](documentation/tests/colour-contrast3.png)
 
 
 ### Light House
