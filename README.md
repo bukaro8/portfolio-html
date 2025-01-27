@@ -125,6 +125,22 @@ Below are the wireframes for the different pages of the project, showcasing the 
 
 
 ## Testing
+### HTML Checker
+
+* Results:  [HTML](documentation/tests/html-checker.png)
+
+### CSS Checker
+
+* Results:  [wc3-validator](documentation/tests/w3c-css-validator.png)
+ * Explanation
+- The errors in the Jigsaw CSS Validator occur because the validator does not fully support some modern CSS features. For example, the `@property` rule, which is used to define custom properties, is part of the newer CSS Houdini specification and is not yet recognised by all validators. Similarly, the `conic-gradient` function, when used with CSS variables like `var(--angle)`, may not be properly understood by the validator, leading to a value error. Additionally, the `translate` and `scale` properties are part of the newer CSS Transforms Module Level 2, but the validator expects the older syntax using the `transform` property with functions like `translate()` and `scale()`. These issues highlight the gap between modern CSS features and the validator's current capabilities, which are based on older or more widely supported standards. To fix these errors, the code can be updated to use the older, more universally accepted syntax, ensuring compatibility with tools like the Jigsaw CSS Validator.
+
+
+### Colours  Contrast Checker
+*  [Desktop](documentation/tests/colour-contrast1.png)
+*  [Desktop](documentation/tests/colour-contrast2.png)
+*  [Desktop](documentation/tests/colour-contrast3.png)
+
 
 ### Light House
 
