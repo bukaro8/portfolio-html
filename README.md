@@ -7,7 +7,7 @@
 The website has a clear and accessible structure with key sections:
 
 Navigation Bar: A responsive navbar provides links to Home, About, Projects, and Contact, adapting to different screen sizes.
-•	Hero Section: Features a large <h1> introducing Victor with a brief description of his skills and technologies.
+•	Hero Section: Features a large h1 introducing Victor with a brief description of his skills and technologies.
 •	About Section: Highlights Victor’s experience and skills in a concise, readable format.
 •	Projects Section: Displays a grid of completed projects with images and descriptions.
 •	Contact Section: Includes links to GitHub, LinkedIn, and email for easy communication.
