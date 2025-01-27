@@ -86,9 +86,7 @@ p {
 			--angle: 360deg;
 		}
 	}
-	/* animated border end */
-	/* styles.css */
-	
+
 	#background {
 		scroll-behavior: smooth;
 		scroll-padding: 10rem;
