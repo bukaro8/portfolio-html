@@ -1,5 +1,5 @@
 # portfolio-html
-
+## Deployment
  Deployed Website: https://bukaro8.github.io/portfolio-html/
 
 
@@ -99,8 +99,8 @@ The colours are defined as CSS variables in the `:root` selector for easy reuse 
 Below are the wireframes for the different pages of the project, showcasing the design for both desktop and mobile views.
 
 ### Landing Page
-- **Desktop View**: [Landing Page Desktop](documentation/wireframes/landingpage-desktop.png)  
-- **Mobile View**: [Landing Page Mobile](documentation/wireframes/landingpage-mobile.png)  
+- **Desktop View**: [Landing Page Desktop](documentation/wireframes/landing-desktop.png)  
+- **Mobile View**: [Landing Page Mobile](documentation/wireframes/landing-mobile.png)  
 
 ### About Page
 - **Desktop View**: [About Page Desktop](documentation/wireframes/about-desktop.png)  
@@ -116,7 +116,21 @@ Below are the wireframes for the different pages of the project, showcasing the 
 
 
 
+## Testing
 
+### Light House
+
+* Home [Desktop](documentation/tests/lighthouse.png) |
+[Mobile](documentation/tests/lighthouse-mobile.png) 
+
+* About [Desktop](documentation/tests/lighthouse-about-desktop.png)|
+[Mobile](documentation/tests/lighthouse-about-mobile.png)
+
+* Projects [Desktop](documentation/tests/lighthouse-projects-desktop.png)|
+[Mobile](documentation/tests/lighthouse-projects-mobile.png)
+
+* Contact [Desktop](documentation/tests/lighthouse-contact-desktop.png)|
+[Mobile](documentation/tests/lighthouse-contact-mobile.png)
 
 
 note:
