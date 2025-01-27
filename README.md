@@ -2,6 +2,18 @@
 ## Deployment
  Deployed Website: https://bukaro8.github.io/portfolio-html/
 
+## Website Structure Overview:
+
+The website has a clear and accessible structure with key sections:
+
+Navigation Bar: A responsive navbar provides links to Home, About, Projects, and Contact, adapting to different screen sizes.
+•	Hero Section: Features a large <h1> introducing Victor with a brief description of his skills and technologies.
+•	About Section: Highlights Victor’s experience and skills in a concise, readable format.
+•	Projects Section: Displays a grid of completed projects with images and descriptions.
+•	Contact Section: Includes links to GitHub, LinkedIn, and email for easy communication.
+•	Footer: Provides additional links and copyright information.
+The website uses semantic HTML for accessibility and SEO, ensuring a well-structured and user-friendly experience.
+
 
 ## User Stories / Goals
 
