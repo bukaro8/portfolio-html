@@ -1,10 +1,10 @@
 .about-container {
 	width: 100vw;
-	height:100vh;
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
 	align-items:center;
+	margin-bottom: 1.5rem;
 }
 
 .about-container h1 {
@@ -16,7 +16,7 @@
 .about-container p {
 	font-size: 1.2rem;
 	line-height: 1.6;
-	margin-bottom: 1.5rem;
+
 }
 
 /* Button style */
@@ -42,17 +42,76 @@
 .about_image-container{
 	max-width:88%;
 	padding-block-end:2rem
-	
-	/* width:33vw; */
 }
-.logos-container{
-	display:flex;
-	justify-content:center;
-	gap: 2rem;
-	flex-wrap: wrap;
-	width:100vw;
-	padding-block-end:2rem
 
+.logos-container{
+	display:block;
+}
+.wrapper {
+  width: 90%;
+  max-width: 1536px;
+  margin-inline: auto;
+  position: relative;
+  height: 130px;
+padding-top:2rem;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -200px;
+  }
+}
+
+.item {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: max(calc(48px * 8), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+	
+}
+
+.item1 {
+  animation-delay: calc(30s / 8 * (8 - 1) * -1);
+}
+
+.item2 {
+  animation-delay: calc(30s / 8 * (8 - 2) * -1);
+}
+
+.item3 {
+  animation-delay: calc(30s / 8 * (8 - 3) * -1);
+}
+
+.item4 {
+  animation-delay: calc(30s / 8 * (8 - 4) * -1);
+}
+
+.item5 {
+  animation-delay: calc(30s / 8 * (8 - 5) * -1);
+}
+
+.item6 {
+  animation-delay: calc(30s / 8 * (8 - 6) * -1);
+}
+
+.item7 {
+  animation-delay: calc(30s / 8 * (8 - 7) * -1);
+}
+
+.item8 {
+  animation-delay: calc(30s / 8 * (8 - 8) * -1);
 }
 @media screen and (max-width: 768px) {
 	.article-message {
