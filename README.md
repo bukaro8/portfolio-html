@@ -206,6 +206,20 @@ Below is the manual testing performed for the project to ensure all features wor
 | **Confirmation Page** |                                                                        |                                                                          |        |        |                                                                                          |
 | Redirect to Home Page | The user is automatically redirected to the home page after 10 seconds | The user is redirected to the home page                                  | Yes    | Yes    | -                                                                                        |
 
+## Credits  
+
+### Images  
+- **Icons**: Thanks to [SVG Repo](https://www.svgrepo.com/vectors/instagram/) for providing royalty-free SVG icons used in this project.  
+- **Cartoon Image**: Created using the **Image Cartoon AI** app on Apple.  
+
+### Colours  
+- **Colour Palette**: Selected from [Colormind](http://colormind.io/).  
+
+### CSS  
+- **Tailwind CSS**: Some CSS classes are based on the Tailwind CSS framework.  
+- **Background**: The CSS background design was sourced from [BG Gradient Generator](https://bg.ibelick.com/).  
+
+
 
 note:
 1. Run ./tailwindcss-macos-arm64 -i styles.css -o dist/output.css --minify

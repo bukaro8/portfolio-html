@@ -56,8 +56,8 @@ p {
 .animated-border::before {
 	content: '';
 	position: absolute;
-	height: 107%;
-	width: 107%;
+	height: 110%;
+	width: 110%;
 	background-image: conic-gradient(
 		from var(--angle),
 		#ff4545,
