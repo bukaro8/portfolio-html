@@ -2,6 +2,18 @@
    ![multiple-screens](documentation/multiple-screens.png)  
 ## Deployment
  Deployed Website: https://bukaro8.github.io/portfolio-html/
+ ### Deploying to GitHub Pages  
+1. **Prepare the Repository**  
+   - Ensure that your project is pushed to a GitHub repository.  
+   - Your main `index.html` file should be located in the root directory of the repository.  
+
+2. **Enable GitHub Pages**  
+   - Go to your repository on GitHub.  
+   - Click on the **Settings** tab.  
+   - Scroll down to the **Pages** section in the sidebar (under "Code and automation").  
+   - Under **Source**, select the branch you want to deploy from (e.g., `main`) and set the folder to `/root`.  
+   - Click **Save**.  
+
 
 ## Website Structure Overview:
 
