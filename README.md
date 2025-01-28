@@ -116,8 +116,8 @@ The colours are defined as CSS variables in the `:root` selector for easy reuse 
 
 ```
 
+## Wireframes 
 Below are the wireframes for the different pages of the project, showcasing the design for both desktop and mobile views.
-
 ### Landing Page
 - **Desktop View**: [Landing Page Desktop](documentation/wireframes/landing-desktop.png)  
 - **Mobile View**: [Landing Page Mobile](documentation/wireframes/landing-mobile.png)  
@@ -168,8 +168,17 @@ Below are the wireframes for the different pages of the project, showcasing the 
 * Contact [Desktop](documentation/tests/lighthouse-contact-desktop.png)|
 [Mobile](documentation/tests/lighthouse-contact-mobile.png)
 
+### Bugs and Solutions
+* Issue: Elements Disappeared After Adding Video Controls
+When I included the controls to the main video, certain elements of the website disappeared.
 
+Solution:
+To resolve this issue, I:
 
+1. Redistributed the content into different containers to improve layout organisation.
+2. Adjusted the z-index in the CSS to ensure that the video and other elements were properly layered.
+   
+These changes ensured that all elements remained visible and functional while maintaining the desired design.
 ### Manual Testing
 
 Below is the manual testing performed for the project to ensure all features work as expected.
