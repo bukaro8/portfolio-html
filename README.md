@@ -1,5 +1,5 @@
 # Personal Portfolio HTML-CSS-JS
-  [View Image](documentation/multiple-screens.png)  
+   ![multiple-screens](documentation/multiple-screens.png)  
 ## Deployment
  Deployed Website: https://bukaro8.github.io/portfolio-html/
 
