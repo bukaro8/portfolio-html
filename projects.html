@@ -84,38 +84,432 @@
 				</div>
 			</nav>
 		</header>
-		<main id="background">
-			<h1>my work</h1>
-
-			<footer class="text-white pt-12">
-				<h3 class="">&copy; 2025 Victor Ramirez. All Rights Reserved.</h3>
-				<div class="social-links">
-					<a
-						href="https://github.com/yourgithub"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<img src="./assets/icons/github.svg" alt="GitHub" class="w-12" />
-					</a>
-
-					<a
-						href="https://linkedin.com/in/yourlinkedin"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
+		<main id="background" class="">
+			<h1 class="title">My Work</h1>
+			<section id="cards-container" class="">
+				<!--E-commerce  modal Trigger-->
+				<button
+					data-modal-target="default-modal"
+					data-modal-toggle="default-modal"
+					class="card w-full text-left"
+				>
+					<div class="image-container">
 						<img
-							src="./assets/icons/linkedin.svg"
-							alt="LinkedIn"
-							class="w-12"
+							class="image border"
+							src="/assets/pictures/project1.png"
+							alt="screenshot of a dogs website"
 						/>
-					</a>
+					</div>
+					<div class="flex flex-col justify-between p-4 leading-normal">
+						<h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+							Noteworthy technology acquisitions 2021
+						</h5>
+						<p class="mb-3 font-normal text-gray-400">
+							Here are the biggest enterprise technology acquisitions of 2021 so
+							far, in reverse chronological order.
+						</p>
+					</div>
+				</button>
 
-					<a href="mailto:youremail@example.com">
-						<img src="./assets/icons/gmail.svg" alt="Email" class="w-12" />
-					</a>
+				<!--E-commerce  modal -->
+				<div
+					id="default-modal"
+					tabindex="-1"
+					aria-hidden="true"
+					class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+				>
+					<div class="relative p-4 w-full max-w-2xl max-h-full">
+						<!-- Modal content -->
+						<div
+							class="relative bg-white rounded-lg shadow-sm dark:bg-gray-700"
+						>
+							<!-- Modal header -->
+							<div
+								class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600 border-gray-200"
+							>
+								<h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+									E-Commerce
+								</h3>
+								<button
+									type="button"
+									class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+									data-modal-hide="default-modal"
+								>
+									<svg
+										class="w-3 h-3"
+										aria-hidden="true"
+										xmlns="http://www.w3.org/2000/svg"
+										fill="none"
+										viewBox="0 0 14 14"
+									>
+										<path
+											stroke="currentColor"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+										/>
+									</svg>
+									<span class="sr-only">Close modal</span>
+								</button>
+							</div>
+							<!-- E-commerce Modal body -->
+							<div class="p-4 md:p-5 space-y-4">
+								<img
+									src="./assets/pictures/project1-1.png"
+									alt="e-commerce landing page"
+								/>
+								<h2>E-Commerce Platform</h2>
+								<p>
+									This project is a fully responsive e-commerce platform built
+									with
+									<strong>Next.js</strong>, leveraging its powerful
+									<em>App Router</em> and <em>Server Actions</em> for seamless
+									performance and dynamic routing. The frontend is styled using
+									<strong>Tailwind CSS</strong>, ensuring a modern and sleek
+									design.
+								</p>
+
+								<p>
+									For data management, the platform integrates
+									<strong>Prisma</strong> with a
+									<strong>PostgreSQL database</strong>, offering a robust and
+									scalable backend. User authentication is handled through
+									<strong>NextAuth.js</strong>, enabling secure login via OAuth
+									providers.
+								</p>
+
+								<h3>Key Features:</h3>
+								<ul>
+									<li>
+										<strong>Stripe integration</strong> for secure payments
+									</li>
+									<li>
+										<strong>Dynamic product pages</strong> with server-side
+										rendering (SSR)
+									</li>
+									<li>
+										<strong>State management</strong> using <em>Zustand</em>
+									</li>
+									<li>
+										<strong>Optimised images</strong> with Next.js Image
+										component
+									</li>
+								</ul>
+
+								<p>
+									This project showcases my ability to build scalable and
+									efficient e-commerce applications with modern web
+									technologies. 🚀
+								</p>
+							</div>
+							<!-- Modal footer -->
+							<div
+								class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600"
+							>
+								<button
+									data-modal-hide="default-modal"
+									type="button"
+									class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+								>
+									Close
+								</button>
+							</div>
+						</div>
+					</div>
 				</div>
-			</footer>
+
+				<!-- Video Games Library Modal Trigger-->
+				<a href="#" class="card-reverse">
+					<div class="image-container">
+						<img
+							class="image border"
+							src="/assets/pictures/project2.png"
+							alt="screenshot of a dogs website"
+						/>
+					</div>
+					<div class="flex flex-col justify-between p-4 leading-normal">
+						<h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+							Noteworthy technology acquisitions 2021
+						</h5>
+						<p class="mb-3 font-normal text-gray-400">
+							Here are the biggest enterprise technology acquisitions of 2021 so
+							far, in reverse chronological order.
+						</p>
+					</div>
+				</a>
+
+				<!-- Video Games Library Modal -->
+				<div
+					id="videogames-modal"
+					tabindex="-1"
+					aria-hidden="true"
+					class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+				>
+					<div class="relative p-4 w-full max-w-2xl max-h-full">
+						<div
+							class="relative bg-white rounded-lg shadow-sm dark:bg-gray-700"
+						>
+							<div
+								class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600 border-gray-200"
+							>
+								<h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+									Video Games Library
+								</h3>
+								<button
+									type="button"
+									class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+									data-modal-hide="videogames-modal"
+								>
+									✖
+								</button>
+							</div>
+							<div class="p-4 md:p-5 space-y-4">
+								<img
+									src="./assets/pictures/gaming-library.png"
+									alt="Video Games Library"
+								/>
+								<p>
+									A vast collection of classic and modern video games, built
+									using <strong>Next.js</strong> with a <em>custom API</em> to
+									fetch game details dynamically.
+								</p>
+								<ul>
+									<li><strong>Advanced search</strong> and filters</li>
+									<li>
+										Backend powered by <strong>Express.js</strong> and
+										<strong>MongoDB</strong>
+									</li>
+									<li>Authentication using <strong>NextAuth.js</strong></li>
+								</ul>
+							</div>
+							<div
+								class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600"
+							>
+								<button
+									data-modal-hide="videogames-modal"
+									type="button"
+									class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+								>
+									Close
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Dogs Library Trigger -->
+				<a href="#" class="card">
+					<div class="image-container">
+						<img
+							class="image border"
+							src="/assets/pictures/project3.png"
+							alt="screenshot of a dogs website"
+						/>
+					</div>
+					<div class="flex flex-col justify-between p-4 leading-normal">
+						<h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+							Noteworthy technology acquisitions 2021
+						</h5>
+						<p class="mb-3 font-normal text-gray-400">
+							Here are the biggest enterprise technology acquisitions of 2021 so
+							far, in reverse chronological order.
+						</p>
+					</div>
+				</a>
+
+				<!-- Dogs Library Modal -->
+				<div
+					id="dogs-modal"
+					tabindex="-1"
+					aria-hidden="true"
+					class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+				>
+					<div class="relative p-4 w-full max-w-2xl max-h-full">
+						<div
+							class="relative bg-white rounded-lg shadow-sm dark:bg-gray-700"
+						>
+							<div
+								class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600 border-gray-200"
+							>
+								<h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+									Dogs Library
+								</h3>
+								<button
+									type="button"
+									class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+									data-modal-hide="dogs-modal"
+								>
+									✖
+								</button>
+							</div>
+							<div class="p-4 md:p-5 space-y-4">
+								<img
+									src="./assets/pictures/dogs-library.png"
+									alt="Dogs Library"
+								/>
+								<p>
+									Discover various dog breeds, their characteristics, and care
+									tips. Built with <strong>Next.js</strong> and the
+									<em>Dog API</em> for real-time data.
+								</p>
+								<ul>
+									<li>
+										<strong>Breed information</strong> with high-quality images
+									</li>
+									<li>Interactive <strong>dog quiz</strong></li>
+									<li>Data fetching with <strong>GraphQL</strong></li>
+								</ul>
+							</div>
+							<div
+								class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600"
+							>
+								<button
+									data-modal-hide="dogs-modal"
+									type="button"
+									class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+								>
+									Close
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Animal shelter Trigger -->
+				<a href="#" class="card-reverse">
+					<div class="image-container">
+						<img
+							class="image border"
+							src="/assets/pictures/project4.png"
+							alt="screenshot of a dogs website"
+						/>
+					</div>
+					<div class="flex flex-col justify-between p-4 leading-normal">
+						<h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+							Noteworthy technology acquisitions 2021
+						</h5>
+						<p class="mb-3 font-normal text-gray-400">
+							Here are the biggest enterprise technology acquisitions of 2021 so
+							far, in reverse chronological order.
+						</p>
+					</div>
+				</a>
+
+				<!-- Animal Shelter Modal -->
+				<div
+					id="shelter-modal"
+					tabindex="-1"
+					aria-hidden="true"
+					class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+				>
+					<div class="relative p-4 w-full max-w-2xl max-h-full">
+						<div
+							class="relative bg-white rounded-lg shadow-sm dark:bg-gray-700"
+						>
+							<div
+								class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600 border-gray-200"
+							>
+								<h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+									Animal Shelter
+								</h3>
+								<button
+									type="button"
+									class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+									data-modal-hide="shelter-modal"
+								>
+									✖
+								</button>
+							</div>
+							<div class="p-4 md:p-5 space-y-4">
+								<img
+									src="./assets/pictures/animal-shelter.png"
+									alt="Animal Shelter"
+								/>
+								<p>
+									Help find loving homes for rescued animals. This project
+									integrates <strong>Next.js</strong> and
+									<strong>Firebase</strong> for real-time pet listings.
+								</p>
+								<ul>
+									<li><strong>Live updates</strong> on adoptable pets</li>
+									<li>Secure <strong>adoption application</strong> system</li>
+									<li>Admin dashboard for shelter staff</li>
+								</ul>
+							</div>
+							<div
+								class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600"
+							>
+								<button
+									data-modal-hide="shelter-modal"
+									type="button"
+									class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+								>
+									Close
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
+		<footer class="text-white pt-12">
+			<h3 class="">&copy; 2025 Victor Ramirez. All Rights Reserved.</h3>
+			<div class="social-links">
+				<a
+					href="https://github.com/yourgithub"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img src="./assets/icons/github.svg" alt="GitHub" class="w-12" />
+				</a>
+
+				<a
+					href="https://linkedin.com/in/yourlinkedin"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img src="./assets/icons/linkedin.svg" alt="LinkedIn" class="w-12" />
+				</a>
+
+				<a href="mailto:youremail@example.com">
+					<img src="./assets/icons/gmail.svg" alt="Email" class="w-12" />
+				</a>
+			</div>
+		</footer>
 	</body>
 </html>
 <script src="./js/burgerMenu.js" async></script>
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		function openModal(modalId) {
+			const modal = document.getElementById(modalId);
+			if (modal) {
+				modal.classList.remove('hidden');
+				modal.classList.add('flex');
+			}
+		}
+
+		function closeModal(modalId) {
+			const modal = document.getElementById(modalId);
+			if (modal) {
+				modal.classList.add('hidden');
+				modal.classList.remove('flex');
+			}
+		}
+
+		document.querySelectorAll('[data-modal-toggle]').forEach((button) => {
+			button.addEventListener('click', function () {
+				const targetModal = button.getAttribute('data-modal-target');
+				openModal(targetModal);
+			});
+		});
+
+		document.querySelectorAll('[data-modal-hide]').forEach((closeButton) => {
+			closeButton.addEventListener('click', function () {
+				const targetModal = closeButton.getAttribute('data-modal-hide');
+				closeModal(targetModal);
+			});
+		});
+	});
+</script>
