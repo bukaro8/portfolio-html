@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	form.addEventListener('submit', function (event) {
 		event.preventDefault(); // Prevent the default form submission
+		modal.classList.add('flex');
 		modal.classList.remove('hidden'); // Show the modal
 	});
 
