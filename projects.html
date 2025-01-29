@@ -102,11 +102,11 @@
 					</div>
 					<div class="flex flex-col justify-between p-4 leading-normal">
 						<h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-							Noteworthy technology acquisitions 2021
+							E-Commerce Platform
 						</h5>
 						<p class="mb-3 font-normal text-gray-400">
-							Here are the biggest enterprise technology acquisitions of 2021 so
-							far, in reverse chronological order.
+							This project is a fully responsive e-commerce platform built with
+							Next.js.
 						</p>
 					</div>
 				</button>
@@ -237,8 +237,8 @@
 							Video Games Library
 						</h5>
 						<p class="mb-3 font-normal text-gray-400">
-							Explore a vast collection of classic and modern video games with
-							advanced search, dynamic game details, and authentication.
+							A vast collection of classic and modern video games, built using
+							Next.js with a custom API to fetch game details dynamically.
 						</p>
 					</div>
 				</button>
@@ -317,11 +317,11 @@
 					</div>
 					<div class="flex flex-col justify-between p-4 leading-normal">
 						<h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-							Noteworthy technology acquisitions 2021
+							Animal Library
 						</h5>
 						<p class="mb-3 font-normal text-gray-400">
-							Here are the biggest enterprise technology acquisitions of 2021 so
-							far, in reverse chronological order.
+							Discover various dog breeds. Built with Next.js and the Dog API
+							for real-time data.
 						</p>
 					</div>
 				</button>
@@ -399,11 +399,11 @@
 					</div>
 					<div class="flex flex-col justify-between p-4 leading-normal">
 						<h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-							Video Games Library
+							Animal Shelter
 						</h5>
 						<p class="mb-3 font-normal text-gray-400">
-							Explore a vast collection of classic and modern video games with
-							advanced search, dynamic game details, and authentication.
+							Help find loving homes for rescued animals. This project
+							integrates Next.js and Firebase for real-time pet listings.
 						</p>
 					</div>
 				</button>
@@ -492,36 +492,4 @@
 	</body>
 </html>
 <script src="./js/burgerMenu.js" async></script>
-<script>
-	document.addEventListener('DOMContentLoaded', function () {
-		function openModal(modalId) {
-			const modal = document.getElementById(modalId);
-			if (modal) {
-				modal.classList.remove('hidden');
-				modal.classList.add('flex');
-			}
-		}
-
-		function closeModal(modalId) {
-			const modal = document.getElementById(modalId);
-			if (modal) {
-				modal.classList.add('hidden');
-				modal.classList.remove('flex');
-			}
-		}
-
-		document.querySelectorAll('[data-modal-toggle]').forEach((button) => {
-			button.addEventListener('click', function () {
-				const targetModal = button.getAttribute('data-modal-target');
-				openModal(targetModal);
-			});
-		});
-
-		document.querySelectorAll('[data-modal-hide]').forEach((closeButton) => {
-			closeButton.addEventListener('click', function () {
-				const targetModal = closeButton.getAttribute('data-modal-hide');
-				closeModal(targetModal);
-			});
-		});
-	});
-</script>
+<script src="./js/modals.js"></script>
