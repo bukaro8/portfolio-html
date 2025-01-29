@@ -192,6 +192,13 @@ To resolve this issue, I:
 2. Adjusted the z-index in the CSS to ensure that the video and other elements were properly layered.
    
 These changes ensured that all elements remained visible and functional while maintaining the desired design.
+
+* Issue: Images were working in local but not in github pages
+
+Solution:
+1. Check all the images paths to be relative
+2. Add a dot at the start of the path.
+   
 ### Manual Testing
 
 Below is the manual testing performed for the project to ensure all features work as expected.
@@ -231,6 +238,7 @@ Below is the manual testing performed for the project to ensure all features wor
 ### CSS  
 - **Tailwind CSS**: Some CSS classes are based on the Tailwind CSS framework.  
 - **Background**: The CSS background design was sourced from [BG Gradient Generator](https://bg.ibelick.com/).  
+- **GlassEffect**: Glass background CSS was [ccs.glass](https://css.glass)
 
 
 
