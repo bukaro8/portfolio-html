@@ -209,6 +209,7 @@ Solution:
 * [Projects (Mobile)](./assets/pictures/projects-mobile.png)
 * [Contact](./assets/pictures/contact-desktop.png)
 * [Contact (Mobile)](./assets/pictures/contact-mobile.png)
+  
 ### Manual Testing
 
 Below is the manual testing performed for the project to ensure all features work as expected.
