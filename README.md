@@ -198,7 +198,17 @@ These changes ensured that all elements remained visible and functional while ma
 Solution:
 1. Check all the images paths to be relative
 2. Add a dot at the start of the path.
-   
+
+### Responsive Viewer
+
+* [Home](./assets/pictures/home-desktop.png)
+* [Home (Mobile)](./assets/pictures/home-mobile.png)
+* [About](./assets/pictures/about-desktop.png)
+* [About (Mobile)](./assets/pictures/about-mobile.png)
+* [Projects](./assets/pictures/projects-desktop.png)
+* [Projects (Mobile)](./assets/pictures/projects-mobile.png)
+* [Contact](./assets/pictures/contact-desktop.png)
+* [Contact (Mobile)](./assets/pictures/contact-mobile.png)
 ### Manual Testing
 
 Below is the manual testing performed for the project to ensure all features work as expected.
