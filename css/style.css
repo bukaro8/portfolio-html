@@ -160,11 +160,15 @@ text-align:center;
 	}
 }
 @media screen and (max-width: 768px) {
+
+	footer{
+		display:none
+	}
+}
+@media screen and (max-width: 1000px) {
 	#navbar {
 		background-image: none;
 		
 	}
-	footer{
-		display:none
-	}
+
 }
